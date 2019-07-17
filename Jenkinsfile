@@ -1,32 +1,29 @@
 pipeline {
 
-
 	agent any
-	
+
 	stages {
 	
 	
-		stage ('normal file'){
+		stage ('from git hub') {
 		
 		
 			steps {
 			
 			
-				echo 'from git hub resource'		
-		
+				echo 'from git hub repo'
+			
 			
 			}
 		
 		
 		}
 
-		stage ('getting from git'){
-		
+		stage ('from jenkins build') {
 		
 			steps {
 			
-			
-				echo 'values from git hub'
+				echo 'getting from jenkins'
 			
 			
 			
@@ -35,16 +32,8 @@ pipeline {
 		
 		
 		}
-	
-	
-	
-	
-	
-	}
-	
-	}
+
+		}
 
 
-
-
-}
+		}
