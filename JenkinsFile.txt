@@ -1,0 +1,31 @@
+pipeline {
+
+agent any {
+
+stages {
+
+
+stage ('fetch from git hub'){
+
+steps {
+
+echo 'jenkins files will fetch from git'
+
+
+}
+
+}
+
+stage ('build file'){
+
+
+}
+
+
+
+}
+
+}
+
+
+}
