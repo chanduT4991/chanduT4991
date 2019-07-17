@@ -1,33 +1,37 @@
 pipeline {
 
-	agent any {
+
+	agent any
 	
-		stages {
-
-			stage ('normal file'){
-
-
-
+	stages {
+	
+	
+		stage ('normal file'){
+		
 		
 			steps {
 			
 			
-				echo 'this is normal file'
-			}
+				echo 'from git hub resource'		
+		
 			
 			}
+		
+		
+		}
 
-			stage ('from git hub'){
+		stage ('getting from git'){
+		
+		
+			steps {
 			
 			
-				steps {
-				
-					echo 'from git hub'
-				
-				}
+				echo 'values from git hub'
+			
 			
 			
 			}
+		
 		
 		
 		}
@@ -37,5 +41,10 @@ pipeline {
 	
 	
 	}
+	
+	}
+
+
+
 
 }
