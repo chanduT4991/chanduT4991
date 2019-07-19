@@ -2,4 +2,6 @@ hi this for demo in git to jenkins integration
 
 a new line has been added into this git
 
-helloooo ne wupodates 
+helloooo ne wupodates
+
+this is for pipelie setup
